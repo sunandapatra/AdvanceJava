@@ -1,0 +1,72 @@
+[2017-05-10 16:07:47,091] INFO  - http-nio-8081-exec-7 - Servlet.LoginServlet service - LoginServlet.service() : START
+[2017-05-10 16:07:47,100] INFO  - http-nio-8081-exec-7 - Servlet.LoginServlet service - LoginServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 16:07:47,107] INFO  - http-nio-8081-exec-7 - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 16:07:48,238] DEBUG - http-nio-8081-exec-7 - Servlet.LoginServlet service - FirstName Of Login: Sunanda
+[2017-05-10 16:07:48,278] INFO  - http-nio-8081-exec-7 - Servlet.LoginServlet service - LoginServlet.service() : END
+[2017-05-10 16:07:59,062] INFO  - http-nio-8081-exec-2 - Servlet.RegistrationServlet service - RegistrationServlet.service() : START
+[2017-05-10 16:07:59,073] INFO  - http-nio-8081-exec-2 - Servlet.RegistrationServlet service - RegistrationServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 16:07:59,081] DEBUG - http-nio-8081-exec-2 - Servlet.RegistrationServlet service - FirstName: rr
+[2017-05-10 16:07:59,086] INFO  - http-nio-8081-exec-2 - DAO.DAOImpl.RegistrationImpl userRegistration - RegistrationImpl.userRegistration() : START
+[2017-05-10 16:07:59,211] INFO  - http-nio-8081-exec-2 - Servlet.RegistrationServlet service - userRegistered: SUCCESS
+[2017-05-10 16:07:59,266] INFO  - http-nio-8081-exec-2 - Servlet.RegistrationServlet service - RegistrationServlet.service() : END
+[2017-05-10 16:13:12,787] INFO  - http-nio-8081-exec-5 - Servlet.LoginServlet service - LoginServlet.service() : START
+[2017-05-10 16:13:12,798] INFO  - http-nio-8081-exec-5 - Servlet.LoginServlet service - LoginServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 16:13:12,806] INFO  - http-nio-8081-exec-5 - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 16:13:13,731] DEBUG - http-nio-8081-exec-5 - Servlet.LoginServlet service - FirstName Of Login: Sunanda
+[2017-05-10 16:13:13,748] INFO  - http-nio-8081-exec-5 - Servlet.LoginServlet service - LoginServlet.service() : END
+[2017-05-10 16:13:22,723] INFO  - http-nio-8081-exec-1 - Servlet.RegistrationServlet service - RegistrationServlet.service() : START
+[2017-05-10 16:13:22,726] INFO  - http-nio-8081-exec-1 - Servlet.RegistrationServlet service - RegistrationServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 16:13:22,735] DEBUG - http-nio-8081-exec-1 - Servlet.RegistrationServlet service - FirstName: hjhj
+[2017-05-10 16:13:22,740] INFO  - http-nio-8081-exec-1 - DAO.DAOImpl.RegistrationImpl userRegistration - RegistrationImpl.userRegistration() : START
+[2017-05-10 16:13:22,843] INFO  - http-nio-8081-exec-1 - Servlet.RegistrationServlet service - userRegistered: SUCCESS
+[2017-05-10 16:13:22,851] INFO  - http-nio-8081-exec-1 - Servlet.RegistrationServlet service - RegistrationServlet.service() : END
+[2017-05-10 16:14:21,708] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() : START
+[2017-05-10 16:14:21,716] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 16:14:21,726] INFO  - http-nio-8081-exec-3 - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 16:14:22,639] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() : END
+[2017-05-10 16:14:33,532] INFO  - http-nio-8081-exec-9 - Servlet.RegistrationServlet service - RegistrationServlet.service() : START
+[2017-05-10 16:14:33,533] INFO  - http-nio-8081-exec-9 - Servlet.RegistrationServlet service - RegistrationServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 16:14:33,542] INFO  - http-nio-8081-exec-9 - DAO.DAOImpl.RegistrationImpl userRegistration - RegistrationImpl.userRegistration() : START
+[2017-05-10 16:14:33,648] INFO  - http-nio-8081-exec-9 - Servlet.RegistrationServlet service - userRegistered: SUCCESS
+[2017-05-10 16:14:33,666] INFO  - http-nio-8081-exec-9 - Servlet.RegistrationServlet service - RegistrationServlet.service() : END
+[2017-05-10 18:57:54,896] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() : START
+[2017-05-10 18:57:54,912] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 18:57:54,918] INFO  - http-nio-8081-exec-3 - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 18:57:55,867] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() : END
+[2017-05-10 18:58:18,767] INFO  - http-nio-8081-exec-5 - Servlet.RegistrationServlet service - RegistrationServlet.service() : START
+[2017-05-10 18:58:18,769] INFO  - http-nio-8081-exec-5 - Servlet.RegistrationServlet service - RegistrationServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 18:58:18,777] INFO  - http-nio-8081-exec-5 - DAO.DAOImpl.RegistrationImpl userRegistration - RegistrationImpl.userRegistration() : START
+[2017-05-10 18:58:18,876] INFO  - http-nio-8081-exec-5 - Servlet.RegistrationServlet service - userRegistered: SUCCESS
+[2017-05-10 18:58:18,901] INFO  - http-nio-8081-exec-5 - Servlet.RegistrationServlet service - RegistrationServlet.service() : END
+[2017-05-10 19:46:12,149] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() : START
+[2017-05-10 19:46:12,156] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() Request From :0:0:0:0:0:0:0:1
+[2017-05-10 19:46:12,163] INFO  - http-nio-8081-exec-3 - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:46:13,172] INFO  - http-nio-8081-exec-3 - Servlet.LoginServlet service - LoginServlet.service() : END
+[2017-05-10 19:46:41,236] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:46:41,249] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:46:42,141] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END
+[2017-05-10 19:46:42,141] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - loginuser: Something Went Wrong
+[2017-05-10 19:52:25,200] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:52:25,212] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:52:26,111] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END
+[2017-05-10 19:53:02,418] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:53:02,431] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:53:03,121] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END
+[2017-05-10 19:53:32,195] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:53:32,206] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:53:33,010] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END
+[2017-05-10 19:54:04,027] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:54:04,040] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:54:04,861] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END
+[2017-05-10 19:55:35,596] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:55:35,607] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:55:36,383] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END
+[2017-05-10 19:55:48,199] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:55:48,210] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:55:49,016] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END
+[2017-05-10 19:56:15,648] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:56:15,659] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:56:16,377] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END
+[2017-05-10 19:56:37,961] INFO  - main - DAO.DAOImpl.LoginImplTest loginUser - LoginImplTest.loginUser() : START
+[2017-05-10 19:56:37,974] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : START
+[2017-05-10 19:56:38,751] INFO  - main - DAO.DAOImpl.LoginImpl loginUser - LoginImpl.loginUser() : END

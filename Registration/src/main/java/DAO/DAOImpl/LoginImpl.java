@@ -8,6 +8,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.apache.log4j.Logger;
+
 import DAO.ILogin;
 import Domain.Login;
 
@@ -19,8 +21,10 @@ public class LoginImpl implements ILogin {
 	Statement stmt = null;
 	ResultSet rs = null;
 	PreparedStatement psmt = null;
-
+	private static Logger log = Logger.getLogger(LoginImpl.class);
+	
 	public String loginUser(Login login) {
+		log.info("LoginImpl.loginUser() : START");
 		String UserName = login.getFname();
 		String Passwod = login.getPassword();
 		try {
@@ -37,7 +41,8 @@ public class LoginImpl implements ILogin {
     		} catch (ClassNotFoundException e) {
     			e.printStackTrace();
     		}    		
-    	
-		return "Something Went Wrong"; 
+		log.info("LoginImpl.loginUser() : END");
+		return "Something Went Wrong";
+		//return null;
 }
 }

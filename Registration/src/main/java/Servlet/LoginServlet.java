@@ -14,6 +14,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
+
 import DAO.ILogin;
 import DAO.IRegistration;
 import DAO.DAOImpl.LoginImpl;
@@ -31,17 +33,20 @@ public class LoginServlet extends HttpServlet {
 	ResultSet rs = null;
 	PreparedStatement psmt = null;
 
+	private static Logger log = Logger.getLogger(LoginServlet.class);
+	
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+		log.info("LoginServlet.service() : START");
 		String fname = request.getParameter("fname");
 		String password = request.getParameter("password");
+		log.info("LoginServlet.service() Request From :"+request.getRemoteHost());
 		Login login = new Login();
 		login.setFname(fname);
 		login.setPassword(password);
 		ILogin loginDao = new LoginImpl();
 		String userLogin = loginDao.loginUser(login);
-
+		log.debug("FirstName Of Login: " + fname);
 		if (userLogin.equals("Login")) {
 			request.setAttribute("fname", fname);
 			RequestDispatcher rd = request.getRequestDispatcher("success.jsp");
@@ -49,6 +54,7 @@ public class LoginServlet extends HttpServlet {
 		} else {
 			response.sendRedirect("index.jsp");
 		}
+		log.info("LoginServlet.service() : END");
 	}
 
 }

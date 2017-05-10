@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.apache.log4j.Logger;
+
 import DAO.IRegistration;
 import Domain.Registration;
 
@@ -18,8 +20,10 @@ public class RegistrationImpl implements IRegistration{
 	Statement stmt = null;
 	ResultSet rs = null;
 	PreparedStatement psmt = null;
+	private static Logger log = Logger.getLogger(RegistrationImpl.class);
 	
 	public  String userRegistration(Registration regd){
+		log.info("RegistrationImpl.userRegistration() : START");
 		String Fname=regd.getFname();
 		String Lname=regd.getLname();
 		String Email=regd.getEmail();
@@ -43,6 +47,7 @@ public class RegistrationImpl implements IRegistration{
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
+		log.info("RegistrationImpl.userRegistration() : END");
 		return "Something Went Wrong"; 
 	}
 }
