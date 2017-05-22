@@ -2,7 +2,10 @@ package UserInfo.Servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
+import java.util.Map;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -32,6 +35,17 @@ public class userServlet extends HttpServlet {
 				.getWebApplicationContext(request.getServletContext());
 		IUserDAO service = (IUserDAO) applicationContext.getBean("userServiceImpl");
 		//IUserService service = (IUserService) applicationContext.getBean("userServiceImpl");
-		out.println(service.fetchUserDetails("Aakarsh"));
+		//out.println(service.fetchUserDetails(userId));
+		Map m = service.fetchUserDetails(userId);
+		String Fname=(String)m.get("FName");
+		String Lname=(String)m.get("LName");
+		String email=(String)m.get("email");
+		String userName=(String)m.get("userName");
+		request.setAttribute("Fname", Fname);
+		request.setAttribute("Lname", Lname);
+		request.setAttribute("email", email);
+		request.setAttribute("userName", userName);
+		RequestDispatcher rd = request.getRequestDispatcher("success.jsp");
+		rd.forward(request, response);
 	}
 }
